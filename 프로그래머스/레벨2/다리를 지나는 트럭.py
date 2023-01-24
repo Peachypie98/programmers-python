@@ -45,3 +45,5 @@ def solution(bridge_length, weight, truck_weights):
             truck_count -= 1
         bridge.append(0)
     return time
+
+print(solution(333, 555,[1,1,2,5,8,13,34,55,89,144,233,377]))
